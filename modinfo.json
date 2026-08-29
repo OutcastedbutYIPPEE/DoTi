@@ -1,0 +1,21 @@
+﻿{
+  "id": "outcasted.DOTI2",
+  "name": "Rain World : Dawn Of The Ice",
+  "version": "0.2.3",
+  "authors": "DOTI CONTRIBUTORS<LINE><LINE>Outcasted - Project Lead, Original Concept, Sprites, Music, Artwork<LINE><LINE>Mae - Beta Tester<LINE><LINE>",
+  "description": "An expansion to a time far past the campaign of Saint where the blizzards grow evermore harsher, forcing many creatures to adapt.",
+  "requirements": [
+    "slime-cubed.slugbase"
+  ],
+  "requirements_names": [
+    "SlugBase"
+  ],
+  "tags": [
+    "Custom Slugcat",
+    "Campaigns",
+    "Creatures",
+    "Downpour",
+    "Watcher",
+    "Regions"
+  ]
+}

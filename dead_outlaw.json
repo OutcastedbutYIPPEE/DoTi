@@ -1,0 +1,9 @@
+{
+	"id": "DeadOUTLAW",
+	"scene_folder": "slugbase/scenes/dead - outlaw",
+	"images": [
+        {"name": "new death - flat", "pos":[0,0], "depth":2.0, "shader": "Basic"}
+	],
+	"idle_depths": [ 2.8 ],
+	"slugcat_depth": 2.8
+}

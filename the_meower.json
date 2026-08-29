@@ -1,0 +1,122 @@
+{
+    "id": "Binary",
+    "name": "????",
+    "description": "A fragile light amongst the perilous dark, your jouney will not be easy.",
+    "features":{
+        "color":"053dff",
+        "custom_colors":[
+            {"name":"Body","story":"053dff"},
+            {"name":"Eyes","story":"ffffff"},
+            {"name":"Gills","story":"053dff"},
+        ],
+        "select_menu_scene": "BinarySCG",
+        "select_menu_scene_ascended": "GhostBinary",
+        "sleep_scene": "SleepBinary",
+        "throw_skill":0.12,
+        "the_glow":true,
+        "has_dreams": true,
+        "use_default_dreams": false,
+        "walk_speed":0.9,
+        "climb_speed":1.4,
+        "maul_damage": 943,
+        "can_slam": true,
+        "can_maul": true,
+        "weight":0.56,
+        "auto_grab_batflies":false,
+        "cant_swallow_objects": true,
+        "food_min":2,
+        "enlightened": true,
+        "food_max":6,
+        "crouch_stealth": 3,
+        "loudness": 2,
+        "karma":3,
+        "body_warmth": 6,
+"explosive_jump": {
+    "limits": [2, 4],
+    "jump_sound_id": "Fire_Spear_Explode",
+    "parry": true,
+    "food_cost": 0,
+    "jump_speed": [7],
+    "limit_reached_result": "Die",
+    "stun_timers": [60],
+    "jump_effect": true,
+"creature_relationships": {
+	"Spider": { "Afraid" : 5 },
+	"Frog": { "Ignore" : 1 },
+	"Leech": { "Ignore" : 1 },
+	"SeaLeech": { "Ignore" : 1 },
+	"JungleLeech": { "Ignore" : 1 }
+},
+},
+"grab_overrides": {
+    "LanternMouse": "OneHand",
+    "Spear": "OneHand"
+},
+"object_interactions": {
+    "poison_immune": true,
+},
+"custom_edibles": [
+	{
+		"type": "OverseerCarcass",
+		"food_point": 2.2
+	},
+        {
+		"type": "Electricrubbish",
+		"food_point": 2.2
+	},
+
+
+],
+"craft": [
+	{
+		"can_craft_single": true,
+		"craft_items": [
+			{
+				"type": "Spear",
+				"data": 1
+			}
+		],
+		"craft_cost": 1,
+		"craft_result": {
+			"type": "Spear",
+			"data": 2
+		}
+	},
+
+	{
+		"craft_items": [
+			{
+				"type": "Rock"
+			},
+			{
+				"type": "Rock"
+			}
+		],
+		"craft_cost": 0,
+		"craft_result": {
+			"type": "FlareBomb"
+		}
+	}
+],
+         "diet": {
+           "base": "Gourmand",
+           "corpses": 0.6,
+           "LanternMouse": 4,
+           "plants": 0.5,
+           "overrides": {
+           "DangleFruit": 1,
+           "Hazer": 1,
+           "GlowWeed": 1,
+           "Jellyfish": -1,
+           "LilyPuck": -1,
+           "Neuron": -1,
+           "Mushroom": -5
+          }
+        },
+        "lung_capacity":0.2,
+        "world_state":["Binary","Binary"],
+        "timeline_before":["Binary","Binary"],
+        "timeline_after":["Binary"],
+        "start_room":["HI_D01","SU_C04"]
+    }
+}

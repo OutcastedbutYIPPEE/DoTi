@@ -1,0 +1,9 @@
+{
+    "id": "GhostBinary",
+    "scene_folder":"slugbase/scenes/ghost - binary",
+	"images":[
+        {"name": "ghost", "pos":[550,250], "depth":2.0, "shader": "Basic"}
+	],
+    "idle_depths":[0.9,1.2],
+    "slugcat_depth":2.0
+}

@@ -1,0 +1,58 @@
+{
+    "id": "Outlaw",
+    "name": "The Outlaw",
+    "description": "A hostile and aberrant warrior wondering <LINE> the glacial remains of random gods, your journey is grim and unforgiving.",
+    "expedition_description":"no.",
+    "features":{
+        "color":"a37257",
+        "custom_colors":[
+            {"name":"Body","story":"a37257"},
+            {"name":"Eyes","story":"87b44c"},
+        ],
+        "select_menu_scene": "Slugcat_pollasimia",
+"limited_cycles": {
+	"cycles": 10,
+    "death_menu_scene": "Slugcat_Dead_Red"
+},
+"overseer_overwrite": [
+	{
+		"owner": 1,
+		"color": "053DFF"
+	},
+],
+        "throw_skill":5,
+        "title_card": "introroll1",
+        "only_tosses_spears": false,
+        "sleep_scene": "SleepPollasimia",
+        "walk_speed":1.3,
+        "climb_speed":1.6,
+        "tunnel_speed": 1.2,
+        "maul_damage": 18,
+        "can_maul": true,
+        "weight":3,
+        "auto_grab_batflies":false,
+        "food_min":7,
+        "food_max":17,
+        "crouch_stealth": 9,
+        "loudness": -1,
+        "karma":0,
+        "body_warmth": 2,
+"grab_overrides": {
+    "YellowLizard": "OneHand",
+    "BlueLizard": "OneHand",
+    "PinkLizard": "OneHand",
+    "StrawberryLizard": "OneHand",
+},
+        "back_spear": true,
+               "diet":{
+            "base":"Red",
+            "plants":0.1,
+            "overrides":{
+                "Fly":0.1
+            }
+        },
+        "lung_capacity":2,
+        "world_state":["Outlaw","Saint"],
+        "start_room":["SU_A01","SN_newfall"],
+    }
+}
